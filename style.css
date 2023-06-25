@@ -1,0 +1,459 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Hammersmith+One&family=Parisienne&family=Red+Hat+Display&family=Suwannaphum:wght@900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Alkatra';
+}
+/* header*/
+#main{
+    background: rgb(36, 35, 35);
+    border-radius: 5px;
+    margin:  2px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+  
+   
+}
+#main .logo{
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: beige;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.navbar a{
+    color: beige;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px ;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+}
+/*About---------*/
+#about{
+   margin:  10px 70px; 
+    background: rgb(38, 38, 38);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#about a{
+    text-decoration: none;
+    background: rgb(122, 112, 112) ;
+    color: black;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border-radius: 60px;
+    border: 2px solid black;
+    padding: 10px;
+   margin: 30px ;
+   font-weight: 700;
+}
+.abt{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+#about h5{
+   color: rgb(122, 112, 112);
+   font-size: 20px;
+   font-weight: 700;
+   letter-spacing: 8px;
+   margin: 35px 50px;
+}
+
+.about-me {
+    background: rgb(170, 170, 170);
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    /*margin-left: 50px; */
+    line-height: 40px;
+    
+}
+.about-me h1{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+.about-me h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+.about-me p{
+    color: rgb(117, 65, 65);
+    
+}
+
+.education{
+   
+   /*margin-left: 50px;*/
+    background: rgb(170, 170, 170);
+    width: 500px; 
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    line-height: 37px;
+  
+}
+.education  h1{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    padding: 20px;
+}
+.education-content{
+    color: rgb(117, 65, 65) ;
+}
+.education-content h4{
+    letter-spacing: 5px;
+}
+
+/*Skills ------------*/
+
+#skills{
+    margin:  10px 70px; 
+    border-radius: 5px;
+    background: rgb(235, 232, 232);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+   
+}
+#skills h5{
+    color: rgb(59, 59, 59);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin: 35px 50px;
+    
+}
+#skills .icons{
+    background: rgb(37, 37, 37);
+    width: 800px;
+    border-radius: 5px ;
+    padding: 41px;
+
+}
+.skill1{
+    
+    text-align: center;
+}
+#skills .icons .bx {
+    font-size: 50px;
+    background: rgb(175, 175, 169);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.skill2{
+    margin: 50px;
+    text-align: center;
+
+}
+.skill2 span{
+    font-size: 50px;
+    background: rgb(175, 175, 169);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 30px;
+    border: 1px solid black;
+    
+}
+/*Projects------------------------*/
+
+#project{
+    margin:  10px 70px; 
+    background: rgb(38, 38, 38);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+#project h5{
+    color: rgb(122, 112, 112);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin: 35px 50px;
+}
+.projects{
+    display: flex;
+    padding: 20px;
+}
+.card1{
+    padding: 10px;
+    background: white;
+    width: 450px;
+    height: 400px;
+    margin: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+   
+}
+
+.card1 img{
+    padding: 3px 50px;
+  
+    border: 2px solid green;
+    border-radius: 2px;
+    object-fit: fill;
+}
+.card1 .description{
+    margin: 10px;
+}
+.card1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    background: green;
+    padding: 5px;
+    
+    margin: 120px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.card2{
+    padding: 10px;
+    background: white;
+    width: 450px;
+    height: 400px;
+    margin: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+   
+}
+
+.card2 img{
+    padding: 3px 50px;
+  
+    border: 2px solid green;
+    border-radius: 2px;
+    object-fit: fill;
+}
+.card2 .description{
+    margin: 10px;
+}
+.card2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    background: green;
+    padding: 5px;
+    
+    margin: 120px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.card3{
+    padding: 10px;
+    background: white;
+    width: 450px;
+    height: 400px;
+    margin: 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+   
+}
+.card3 img{
+    width:250px;
+    height:110px;
+    padding: 3px 50px;
+  
+    border: 2px solid green;
+    border-radius: 2px;
+    object-fit: fill;
+}
+.card3 .description{
+    margin: 10px;
+}
+.card3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    background: green;
+    padding: 5px;
+    
+    margin: 120px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+.more-projects{
+    color: green;
+    margin-left: 150px;
+    font-size: 20px;
+   
+}
+.more-projects a{
+    color: orange;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    
+}
+
+/*blogs----------*/
+
+#blogs{
+   padding: 10px;
+    margin:  10px 70px; 
+    border-radius: 5px;
+    background: rgb(20, 20, 20);
+}
+#blogs h5{
+    color: rgb(75, 72, 72);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin: 35px 50px;
+}
+
+.blog1{
+    color: beige;
+    background: rgb(60, 96, 97);
+    width: 900px;
+    margin: 30px;
+    border-radius: 5px ;
+    border: 2px solid rgb(5, 5, 70);;
+    padding: 20px;
+}
+.blog1 h1{
+    color: rgb(5, 5, 70);
+}
+.blog1 p{
+    color: black;
+    font-weight: 600;
+    margin: 10px;
+}
+.blog1 a{
+    text-decoration: none;
+    color: black;
+    background: rgb(5, 5, 70);;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.blog2{
+    color: beige;
+    background: rgb(60, 96, 97);
+    width: 900px;
+    margin: 30px;
+    border-radius: 5px ;
+    border: 2px solid rgb(5, 5, 70);;
+    padding: 20px;
+}
+.blog2 h1{
+    color: rgb(5, 5, 70);
+}
+.blog2 p{
+    color: black;
+    font-weight: 600;
+    margin: 10px;
+}
+.blog2 a{
+    text-decoration: none;
+    color: black;
+    background: rgb(5, 5, 70);;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.blog3{
+    color: beige;
+    background: rgb(60, 96, 97);
+    width: 900px;
+    margin: 30px;
+    border-radius: 5px ;
+    border: 2px solid rgb(5, 5, 70);;
+    padding: 20px;
+}
+.blog3 h1{
+    color: rgb(5, 5, 70);
+}
+.blog3 p{
+    color: black;
+    font-weight: 600;
+    margin: 10px;
+}
+.blog3 a{
+    text-decoration: none;
+    color: black;
+    background: rgb(5, 5, 70);;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+/*connect---------*/
+
+#contact{
+    padding: 10px;
+    margin:  10px 70px; 
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.contacts{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contacts a{
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 700;
+   color: rgb(85, 6, 6);
+
+}
+.contacts a h6{
+    margin-left: 25px;
+}
+.contacts img{
+
+    height: 100px;
+    width:100px ;
+    border: 5px solid red;
+    border-radius: 50px;
+}
+#contact p{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 100px;
+}
+
+.up{
+    position: fixed;
+    margin-left: 1100px;
+    font-size: 80px;
+    color: rgb(219, 131, 15);
+   
+}
